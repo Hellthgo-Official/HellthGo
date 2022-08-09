@@ -1,274 +1,410 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <title>HellthGO | A Global Portal for General Healthcare Assistance</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+  <head>
+    <meta charset="utf-8" />
+    <title>HealthGo | A Global Portal for General Healthcare Assistance</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
 
     <!-- Favicon -->
-    <link href="img/logo.png" rel="icon">
+    <link href="img/logo.png" rel="icon" />
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <div class="container-xxl bg-white p-0">
+      <!-- Navbar & Hero Start -->
+      <div class="container-xxl position-relative p-0">
+        <nav
+          class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"
+        >
+          <a href="./" class="navbar-brand p-0">
+            <img src="img/logowt.png" alt="Logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
+            <span class="fa fa-bars"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav mx-auto py-0">
+              <a href="./" class="nav-item nav-link active">Home</a>
+              <div class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  >About Us</a
+                >
+                <div class="dropdown-menu m-0">
+                  <a href="./who-we-are" class="dropdown-item">Who We Are</a>
+                  <a href="./what-we-do" class="dropdown-item">What We Do</a>
+                  <a href="./why-we-do-this" class="dropdown-item"
+                    >Why We Do This</a
+                  >
+                </div>
+              </div>
+              <a href="./contact" class="nav-item nav-link">Contact</a>
+            </div>
+            <a
+              href="tel:+2349074026790"
+              class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block"
+            >
+              <i class="fa fa-phone-alt"></i
+            ></a>
+          </div>
+        </nav>
 
+        <div class="container-xxl bg-primary hero-header">
+          <div class="container px-lg-5">
+            <div class="row g-5 align-items-end">
+              <div class="col-lg-6 text-center text-lg-start">
+                <h1 class="text-white mb-4 animated slideInDown">
+                  A <span style="color: #fde74c">Global Portal</span> for
+                  General Healthcare Assistance and
+                  <div
+                    style="
+                      float: left;
+                      display: inline;
+                      text-align: center;
+                      width: 100%;
+                      margin-top: 0.8rem;
+                    "
+                    class="HeroText"
+                  >
+                    <span class="HeroAnime">Telemedicine</span>
+                    <span class="HeroAnime">Health Education</span>
+                    <span class="HeroAnime">Decentralized payment wallet</span>
+                    <span class="HeroAnime">Health Record-Keeping</span>
+                  </div>
+                </h1>
+                <p
+                  class="text-white pb-3 animated slideInDown"
+                  style="margin-top: -1rem"
+                >
+                  <br />
+                  <br />
+                  HealthGo is a general healthcare adherence solution provider,
+                  bridging healthcare telemedicine assistance, in-finance, data
+                  keeping via the Blockchain.
+                </p>
+                <a
+                  href="./who-we-are"
+                  class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft"
+                  >Read More</a
+                >
+                <a
+                  href="./contact"
+                  class="btn btn-light py-sm-3 px-sm-5 rounded-pill animated slideInRight"
+                  >Contact Us</a
+                >
+              </div>
+              <div class="col-lg-6 text-center text-lg-start">
+                <img
+                  class="img-fluid animated zoomIn"
+                  src="img/hero.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Navbar & Hero End -->
 
-        <!-- Navbar & Hero Start -->
-        <div class="container-xxl position-relative p-0">
-            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-                <a href="./" class="navbar-brand p-0">
+      <!-- About Start -->
+      <div class="container-xxl py-5">
+        <div class="container py-5 px-lg-5">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+              <p class="section-title text-secondary">
+                What We do<span></span>
+              </p>
+              <h1 class="mb-5">
+                We advance human dignity and protect the world
+              </h1>
+              <p class="mb-4">
+                Through our work on transformative issues critical to humanity's
+                shared future we advance human dignity and protect the world The
+                world's health is a very critical part of humanity's future and
+                this is one of the great fears that International bodies work
+                daily to curb, fighting every epidemic or pandemic in the world.
+                As a strategic startup in the healthcare industry leveraging
+                blockchain technology, we bring together fresh thinking and
+                diverse voices around innovative ideas to drive progress and
+                tackle problems.
+              </p>
+              <a
+                href="./what-we-do.html"
+                class="btn btn-primary py-sm-3 px-sm-5 rounded-pill mt-3"
+                >Read More</a
+              >
+            </div>
+            <div class="col-lg-6">
+              <img
+                class="img-fluid wow zoomIn"
+                data-wow-delay="0.5s"
+                src="img/care.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- About End -->
+      <div class="container-xxl py-5">
+        <div class="container py-5 px-lg-5">
+          <div class="wow fadeInUp" data-wow-delay="0.1s">
+            <!-- <p class="section-title text-secondary justify-content-center"><span></span>Our
+                        Services<span></span></p> -->
+            <h1 class="text-center mb-5">Problems</h1>
+          </div>
+          <div class="row g-4">
+            <p>
+              According to the WHO, there were over 600,000 deaths in Nigeria in
+              2018 due to Non-communicable diseases. Research shows that 64.9%
+              of Nigerians have chronic illnesses and globally, 50% of people
+              with chronic illnesses fail to adhere to their medications. For
+              people with chronic illnesses, the problem is centered around
+              access to medications, availability of medications, follow-ups and
+              complementary lifestyle choices. While chronic illnesses make up a
+              significant percentage of recurring medication needs. There are
+              also chronic disease management needs that require adequate
+              support to ensure a healthy outcome is achieved.
+            </p>
+          </div>
+        </div>
+      </div>
 
-                    <img src="img/logowt.png" alt="Logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars"></span>
+      <!-- Facts Start -->
+      <div
+        class="container-xxl bg-primary fact py-5 wow fadeInUp"
+        data-wow-delay="0.1s"
+      >
+        <div class="container py-5 px-lg-5">
+          <div class="wow fadeInUp" data-wow-delay="0.1s">
+            <!-- <p class="section-title text-secondary justify-content-center"><span></span>Our
+                        Services<span></span></p> -->
+            <h1 class="text-center mb-5" style="color: #fae724">Solutions</h1>
+          </div>
+          <div class="row g-4">
+            <div
+              class="col-md-6 col-lg-3 text-center wow fadeIn"
+              data-wow-delay="0.1s"
+            >
+              <i class="fa fa-capsules fa-3x text-secondary mb-3"></i>
+              <p class="text-white mb-0">Telemedicine</p>
+            </div>
+            <div
+              class="col-md-6 col-lg-3 text-center wow fadeIn"
+              data-wow-delay="0.3s"
+            >
+              <i class="fa fa-users fa-3x text-secondary mb-3"></i>
+              <p class="text-white mb-0">Education/community</p>
+            </div>
+            <div
+              class="col-md-6 col-lg-3 text-center wow fadeIn"
+              data-wow-delay="0.5s"
+            >
+              <i class="fa fa-wallet fa-3x text-secondary mb-3"></i>
+              <p class="text-white mb-0">Finance</p>
+            </div>
+            <div
+              class="col-md-6 col-lg-3 text-center wow fadeIn"
+              data-wow-delay="0.7s"
+            >
+              <i class="fa fa-database fa-3x text-secondary mb-3"></i>
+              <!-- <h1 class="text-white mb-2" data-toggle="counter-up">1234</h1> -->
+              <p class="text-white mb-0">HealthGo Decentralized wallet</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Facts End -->
+
+      <!-- Newsletter Start -->
+      <div
+        class="container-xxl bg-primary newsletter py-5 wow fadeInUp"
+        data-wow-delay="0.1s"
+      >
+        <div class="container py-5 px-lg-5">
+          <div class="row justify-content-center">
+            <div class="col-lg-7 text-center">
+              <p class="section-title text-white justify-content-center">
+                <span></span>Newsletter<span></span>
+              </p>
+              <h1 class="text-center text-white mb-4">Stay Always In Touch</h1>
+              <p class="text-white mb-4">
+                Join our Mail List to always get the Latest News, Updates from
+                Us
+              </p>
+              <div class="position-relative w-100 mt-3">
+                <input
+                  class="form-control border-0 rounded-pill w-100 ps-4 pe-5"
+                  type="text"
+                  placeholder="Enter Your Email"
+                  style="height: 48px"
+                />
+                <button
+                  type="button"
+                  class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"
+                >
+                  <i class="fa fa-paper-plane text-primary fs-4"></i>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav mx-auto py-0">
-                        <a href="./" class="nav-item nav-link active">Home</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
-                            <div class="dropdown-menu m-0">
-                                <a href="./who-we-are" class="dropdown-item">Who We Are</a>
-                                <a href="./what-we-do" class="dropdown-item">What We Do</a>
-                                <a href="./why-we-do-this" class="dropdown-item">Why We Do This</a>
-                            </div>
-                        </div>
-                        <a href="./contact" class="nav-item nav-link">Contact</a>
-                    </div>
-                    <a href="tel:+2349074026790" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">
-                        <i class="fa fa-phone-alt"></i></a>
-                </div>
-            </nav>
-
-            <div class="container-xxl bg-primary hero-header">
-                <div class="container px-lg-5">
-                    <div class="row g-5 align-items-end">
-                        <div class="col-lg-6 text-center text-lg-start">
-                            <h1 class="text-white mb-4 animated slideInDown">A <span style="color:#fde74c ;">Global
-                                    Portal</span> for General
-                                Healthcare Assistance and Health Record-Keeping</h1>
-                            <p class="text-white pb-3 animated slideInDown">HellthGo is a general healthcare adherence
-                                solution provider, bridging healthcare telemedicine assistance, in-finance, data keeping
-                                via the Blockchain.</p>
-                            <a href="./who-we-are"
-                                class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Read
-                                More</a>
-                            <a href="./contact"
-                                class="btn btn-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Contact
-                                Us</a>
-                        </div>
-                        <div class="col-lg-6 text-center text-lg-start">
-                            <img class="img-fluid animated zoomIn" src="img/hero.svg" alt="">
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+          </div>
         </div>
-        <!-- Navbar & Hero End -->
+      </div>
+      <!-- Newsletter End -->
 
-        <!-- About Start -->
-        <div class="container-xxl py-5">
-            <div class="container py-5 px-lg-5">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <p class="section-title text-secondary">What We do<span></span></p>
-                        <h1 class="mb-5">We advance human dignity and protect the world </h1>
-                        <p class="mb-4">Through our work on
-                            transformative issues critical to humanity's shared future we advance human dignity and
-                            protect the world
-
-                            The world's health is a very critical part of humanity's future and this is one of the great
-                            fears that International bodies work daily to curb, fighting every epidemic or pandemic in
-                            the world.
-
-                            As a strategic startup in the healthcare industry leveraging blockchain technology, we bring
-                            together fresh thinking and diverse voices around innovative ideas to drive progress and
-                            tackle problems.
-                        </p>
-                        <a href="./what-we-do.html" class="btn btn-primary py-sm-3 px-sm-5 rounded-pill mt-3">Read
-                            More</a>
-                    </div>
-                    <div class="col-lg-6">
-                        <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="img/care.svg">
-                    </div>
-                </div>
+      <!-- Footer Start -->
+      <div
+        class="container-fluid bg-primary text-light footer wow fadeIn"
+        data-wow-delay="0.1s"
+      >
+        <div class="container py-5 px-lg-5">
+          <div class="row g-5">
+            <div class="col-md-6 col-lg-4">
+              <p class="section-title text-white h5 mb-4">
+                Address<span></span>
+              </p>
+              <p><i class="fa fa-map-marker-alt me-3"></i>Lagos, Nigeria</p>
+              <p>
+                <i class="fa fa-phone-alt me-3"></i
+                ><a href="tel:+2348131937155" style="color: white"
+                  >+234-8131937155</a
+                >
+              </p>
+              <p>
+                <i class="fa fa-envelope me-3"></i
+                ><a href="mailto:hello@HealthGo.com" style="color: white"
+                  >hello@HealthGo.com</a
+                >
+              </p>
+              <div class="d-flex pt-2">
+                <a
+                  class="btn btn-outline-light btn-social"
+                  href="https://twitter.com/HealthGo_hq/"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a
+                  class="btn btn-outline-light btn-social"
+                  href="https://www.facebook.com/HealthGohq/"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a
+                  class="btn btn-outline-light btn-social"
+                  href="https://www.instagram.com/p/CenrWegqpIB/?igshid=YmMyMTA2M2Y="
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a
+                  class="btn btn-outline-light btn-social"
+                  href="https://www.linkedin.com/company/HealthGo/"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a
+                  class="btn btn-outline-light btn-social"
+                  href="https://vm.tiktok.com/ZMNUGg8XE/?k=1"
+                  ><i class="fab fa-tiktok"></i
+                ></a>
+                <a
+                  class="btn btn-outline-light btn-social"
+                  href="https://youtube.com/channel/UCmUCtc_UblS40lSqevo_g6Q"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+                <a
+                  class="btn btn-outline-light btn-social"
+                  href="https://link.medium.com/3C0mlM4wurb"
+                  ><i class="fab fa-medium"></i
+                ></a>
+              </div>
             </div>
+            <div class="col-md-6 col-lg-4">
+              <p class="section-title text-white h5 mb-4">
+                Quick Link<span></span>
+              </p>
+              <a class="btn btn-link" href="./">Home</a>
+              <a class="btn btn-link" href="./contact">Contact Us</a>
+              <a class="btn btn-link" href="./who-we-are">Who We Are</a>
+              <a class="btn btn-link" href="./what-we-do">What We Do</a>
+              <a class="btn btn-link" href="./why-we-do-this">Why We Do This</a>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <p class="section-title text-white h5 mb-4">
+                Newsletter<span></span>
+              </p>
+              <p>Join Our Mail List</p>
+              <div class="position-relative w-100 mt-3">
+                <input
+                  class="form-control border-0 rounded-pill w-100 ps-4 pe-5"
+                  type="text"
+                  placeholder="Your Email"
+                  style="height: 48px"
+                />
+                <button
+                  type="button"
+                  class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"
+                >
+                  <i class="fa fa-paper-plane text-primary fs-4"></i>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- About End -->
-        <div class="container-xxl py-5">
-            <div class="container py-5 px-lg-5">
-                <div class="wow fadeInUp" data-wow-delay="0.1s">
-                    <!-- <p class="section-title text-secondary justify-content-center"><span></span>Our
-                        Services<span></span></p> -->
-                    <h1 class="text-center mb-5">Problems</h1>
+        <div class="container px-lg-5">
+          <div class="copyright">
+            <div class="row">
+              <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                &copy; <a class="border-bottom" href="#">HealthGo 2022</a>
+              </div>
+              <div class="col-md-6 text-center text-md-end">
+                <div class="footer-menu">
+                  <a href="./">Home</a>
+                  <a href="./contact">Help</a>
                 </div>
-                <div class="row g-4">
-                    <p>According to the WHO, there were over 600,000 deaths in Nigeria in 2018 due to Non-communicable
-                        diseases. Research shows that 64.9% of Nigerians have chronic illnesses and globally, 50% of
-                        people with
-                        chronic illnesses fail to adhere to their medications.
-
-                        For people with chronic illnesses, the problem is centered around access to medications,
-                        availability of medications, follow-ups and complementary lifestyle choices. While chronic
-                        illnesses make up a significant percentage of recurring medication needs. There are also chronic
-                        disease management needs that require adequate support to ensure a healthy outcome is achieved.
-                    </p>
-
-                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
+      <!-- Footer End -->
 
-        <!-- Facts Start -->
-        <div class="container-xxl bg-primary fact py-5 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="container py-5 px-lg-5">
-                <div class="wow fadeInUp" data-wow-delay="0.1s">
-                    <!-- <p class="section-title text-secondary justify-content-center"><span></span>Our
-                        Services<span></span></p> -->
-                    <h1 class="text-center mb-5">Solutions</h1>
-                </div>
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
-                        <i class="fa fa-capsules fa-3x text-secondary mb-3"></i>
-                        <p class="text-white mb-0">Telemedicine</p>
-                    </div>
-                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
-                        <i class="fa fa-users fa-3x text-secondary mb-3"></i>
-                        <p class="text-white mb-0">Education/community</p>
-                    </div>
-                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
-                        <i class="fa fa-wallet fa-3x text-secondary mb-3"></i>
-                        <p class="text-white mb-0">Finance</p>
-                    </div>
-                    <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
-                        <i class="fa fa-database fa-3x text-secondary mb-3"></i>
-                        <!-- <h1 class="text-white mb-2" data-toggle="counter-up">1234</h1> -->
-                        <p class="text-white mb-0">HellthGO Decentralized wallet</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Facts End -->
-
-
-
-        <!-- Newsletter Start -->
-        <div class="container-xxl bg-primary newsletter py-5 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="container py-5 px-lg-5">
-                <div class="row justify-content-center">
-                    <div class="col-lg-7 text-center">
-                        <p class="section-title text-white justify-content-center"><span></span>Newsletter<span></span>
-                        </p>
-                        <h1 class="text-center text-white mb-4">Stay Always In Touch</h1>
-                        <p class="text-white mb-4">Join our Mail List to always get the Latest News, Updates from Us</p>
-                        <div class="position-relative w-100 mt-3">
-                            <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text"
-                                placeholder="Enter Your Email" style="height: 48px;">
-                            <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
-                                    class="fa fa-paper-plane text-primary fs-4"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Newsletter End -->
-
-        <!-- Footer Start -->
-        <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
-            <div class="container py-5 px-lg-5">
-                <div class="row g-5">
-                    <div class="col-md-6 col-lg-4">
-                        <p class="section-title text-white h5 mb-4">Address<span></span></p>
-                        <p><i class="fa fa-map-marker-alt me-3"></i>Lagos, Nigeria</p>
-                        <p><i class="fa fa-phone-alt me-3"></i><a href="tel:+2348131937155"
-                                style="color:white">+234-8131937155</a></p>
-                        <p><i class="fa fa-envelope me-3"></i><a href="mailto:hello@hellthgo.com"
-                                style="color: white;">hello@hellthgo.com</a>
-                        </p>
-                        <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href="https://twitter.com/hellthgo_hq/"><i
-                                    class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/Hellthgohq/"><i
-                                    class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social"
-                                href="https://www.instagram.com/p/CenrWegqpIB/?igshid=YmMyMTA2M2Y="><i
-                                    class="fab fa-instagram"></i></a>
-                            <a class="btn btn-outline-light btn-social"
-                                href="https://www.linkedin.com/company/hellthgo/"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-outline-light btn-social" href="https://vm.tiktok.com/ZMNUGg8XE/?k=1"><i
-                                    class="fab fa-tiktok"></i></a>
-                            <a class="btn btn-outline-light btn-social"
-                                href="https://youtube.com/channel/UCmUCtc_UblS40lSqevo_g6Q"><i
-                                    class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href="https://link.medium.com/3C0mlM4wurb"><i
-                                    class="fab fa-medium"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <p class="section-title text-white h5 mb-4">Quick Link<span></span></p>
-                        <a class="btn btn-link" href="./">Home</a>
-                        <a class="btn btn-link" href="./contact">Contact Us</a>
-                        <a class="btn btn-link" href="./who-we-are">Who We Are</a>
-                        <a class="btn btn-link" href="./what-we-do">What We Do</a>
-                        <a class="btn btn-link" href="./why-we-do-this">Why We Do This</a>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <p class="section-title text-white h5 mb-4">Newsletter<span></span></p>
-                        <p>Join Our Mail List</p>
-                        <div class="position-relative w-100 mt-3">
-                            <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text"
-                                placeholder="Your Email" style="height: 48px;">
-                            <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
-                                    class="fa fa-paper-plane text-primary fs-4"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container px-lg-5">
-                <div class="copyright">
-                    <div class="row">
-                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#">HellthGO 2022</a>
-                        </div>
-                        <div class="col-md-6 text-center text-md-end">
-                            <div class="footer-menu">
-                                <a href="./">Home</a>
-                                <a href="./contact">Help</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Footer End -->
-
-
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-secondary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+      <!-- Back to Top -->
+      <a href="#" class="btn btn-lg btn-secondary btn-lg-square back-to-top"
+        ><i class="bi bi-arrow-up"></i
+      ></a>
     </div>
 
     <!-- JavaScript Libraries -->
@@ -281,9 +417,9 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>

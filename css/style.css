@@ -121,12 +121,16 @@ h6,
 }
 
 .navbar-light .navbar-brand img {
-  max-height: 60px;
+  /* height: "50px"; */
+  max-height: 69px;
+
   transition: 0.5s;
 }
 
 .sticky-top.navbar-light .navbar-brand img {
-  max-height: 45px;
+  max-height: 69px;
+
+  /* height: "50px"; */
 }
 
 @media (max-width: 991.98px) {
@@ -152,7 +156,9 @@ h6,
   }
 
   .navbar-light .navbar-brand img {
-    max-height: 45px;
+    max-height: 69px;
+
+    /* height: "60px"; */
   }
 }
 
@@ -546,4 +552,68 @@ h6,
 .footer .copyright a:hover,
 .footer .footer-menu a:hover {
   color: var(--secondary);
+}
+
+.HeroText {
+  height: 50px;
+  overflow: hidden;
+}
+
+.HeroText > span {
+  font-size: 20px;
+  display: block;
+  height: 100%;
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff 0%,
+    #fae724 200%
+  ); /* Chrome 10-25, Safari 5.1-6 */
+
+  background: linear-gradient(
+    to right,
+    #ffffff 0%,
+    #fae724 200%
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  color: transparent;
+  scroll-behavior: smooth;
+  animation: Anime 15s infinite;
+  /* animation-delay: -3s; */
+  /* animation-timing-function: ease-in-out; */
+  /* animation-fill-mode: none; */
+}
+
+@keyframes Anime {
+  10% {
+    transform: translateY(-80%);
+  }
+  15% {
+    transform: translateY(-85%);
+  }
+  20% {
+    transform: translateY(-90%);
+  }
+  25% {
+    transform: translateY(-100%);
+  }
+  35% {
+    transform: translateY(-210%);
+  }
+  50% {
+    transform: translateY(-200%);
+  }
+  60% {
+    transform: translateY(-310%);
+  }
+  75% {
+    transform: translateY(-300%);
+  }
+  85% {
+    transform: translateY(-380%);
+  }
+  100% {
+    transform: translateY(-350%);
+  }
 }

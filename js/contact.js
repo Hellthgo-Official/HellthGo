@@ -1,21 +1,24 @@
-const li = document.getElementById("axx");
-const getUsers = () => {
-  const sname = document.querySelector("name").value;
-  const email = document.querySelector("email").value;
-  console.log(sname, email);
-  axios
-    .post("http://localhost:41816/signup", {
-      name: sname,
-      email,
-    })
-    .then((response) => {
-      const users = response.data.response;
-      console.log(users);
-    })
-    .catch((error) => console.error(error));
-};
+$(document).ready(function () {
+  //Long description
+  $("#wait").click(function () {
+    var u_name = $("#u_name").val();
+    var email = $("#email").val();
 
-li.onclick = (e) => {
-  e.preventDefault();
-  getUsers();
-};
+    if (u_name == null || u_name == "") {
+      $("#msg").html("Kindly input your name");
+    } else {
+      if (email == null || email == "") {
+        $("#msg").html("Kindly input your email");
+      } else {
+        $.ajax({
+          type: "post",
+          url: "../wait.php",
+          data: { u_name: u_name, email: email },
+          success: function (data) {
+            $("#msg").html(data);
+          },
+        });
+      }
+    }
+  });
+});

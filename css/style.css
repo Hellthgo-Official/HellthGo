@@ -556,11 +556,16 @@ h6,
 
 .HeroText {
   height: 50px;
+  margin-top: -5rem !important;
   overflow: hidden;
 }
 
 .HeroText > span {
   font-size: 20px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #04000b;
   display: block;
   height: 100%;
   background: -webkit-linear-gradient(
@@ -577,7 +582,7 @@ h6,
   -webkit-background-clip: text;
   background-clip: text;
 
-  color: transparent;
+  /* color: transparent; */
   scroll-behavior: smooth;
   animation: Anime 15s infinite;
   /* animation-delay: -3s; */
@@ -589,28 +594,28 @@ h6,
   10% {
     transform: translateY(-80%);
   }
-  15% {
+  20% {
     transform: translateY(-85%);
   }
-  20% {
+  30% {
     transform: translateY(-90%);
   }
-  25% {
+  40% {
     transform: translateY(-100%);
   }
-  35% {
+  50% {
     transform: translateY(-210%);
   }
-  50% {
+  60% {
     transform: translateY(-200%);
   }
-  60% {
+  70% {
     transform: translateY(-310%);
   }
-  75% {
+  80% {
     transform: translateY(-300%);
   }
-  85% {
+  90% {
     transform: translateY(-380%);
   }
   100% {

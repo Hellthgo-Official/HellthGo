@@ -96,20 +96,20 @@ textWrappers.forEach((textWrapper) => {
   );
 });
 
-anime({
-  targets: ".HeroAnime .letter",
-  loop: true,
-  scale: [2, 1],
-  opacity: [0, 1],
-  translateZ: 0,
-  easing: "easeOutExpo",
-  duration: 900,
-  delay: 1000,
-  delay: (el, i) => 90 * i,
-}).add({
-  targets: ".ml2",
-  opacity: 0,
-  duration: 1000,
-  easing: "easeOutExpo",
-  // delay: 1000,
-});
+// anime({
+//   targets: ".HeroAnime .letter",
+//   loop: true,
+//   scale: [2, 1],
+//   opacity: [0, 1],
+//   translateZ: 0,
+//   easing: "easeOutExpo",
+//   duration: 3000,
+//   delay: 1000,
+//   delay: (el, i) => 100 * i,
+// }).add({
+//   targets: ".ml2",
+//   opacity: 0,
+//   duration: 1000,
+//   easing: "easeOutExpo",
+//   // delay: 1000,
+// });

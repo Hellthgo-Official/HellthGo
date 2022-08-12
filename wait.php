@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect("localhost", "healthgo", "mypasswordissafe", "healthgo");
+$con = mysqli_connect("localhost", "healthgo_website", "mypasswordis100%safe", "healthgo_waitlist");
 function row_count($result)
 {
 
@@ -17,5 +17,5 @@ if (isset($_POST['u_name']) && isset($_POST['email'])) {
     $user = $_SESSION['login'];
     $sql = "UPDATE waitlist SET `name` = '$u_name', `email` = '$email'";
     $result = mysqli_query($con, $sql);
-    echo 'Thank you for joining our WaitList';
+    echo '<p style="text-align:center">Thank you for joining our WaitList</p>';
 }

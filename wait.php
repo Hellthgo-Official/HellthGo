@@ -14,8 +14,9 @@ if (isset($_POST['u_name']) && isset($_POST['email'])) {
     $u_name = $_POST['u_name'];
     $email = $_POST['email'];
 
-    $user = $_SESSION['login'];
-    $sql = "UPDATE waitlist SET `name` = '$u_name', `email` = '$email'";
+    
+    $sql = "INSERT INTO waitlist (name, email) VALUES ('$u_name', '$email')";
     $result = mysqli_query($con, $sql);
     echo '<p style="text-align:center">Thank you for joining our WaitList</p>';
 }
+?>

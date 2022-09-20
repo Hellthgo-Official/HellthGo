@@ -1,24 +1,22 @@
-body {
-  background: #eee;
-}
 .brands {
   width: 100%;
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
 
 .brands_slider_container {
-  height: 130px;
+  height: 170px;
   border: solid 1px #e8e8e8;
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
-  padding-left: 97px;
-  padding-right: 97px;
+  padding-left: 30px;
+  padding-right: 30px;
   background: #fff;
 }
 
 .brands_slider {
   height: 100%;
   margin-top: 50px;
+  align-items: center;
 }
 
 .brands_item {

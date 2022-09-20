@@ -1,0 +1,9 @@
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^events.healthgotechnologies\.com [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://events.healthgotechnologies.com/$1 [R,L]

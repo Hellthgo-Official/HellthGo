@@ -75,7 +75,7 @@ form.addEventListener("submit", async (e) => {
       .then((res) => {
         console.log(res.data);
         setTimeout(
-          async () => await copyToClipboard(host, res.data.userReferral),
+          async () => await copyToClipboard('https://healthgotechnologies.com/sign-up', res.data.userReferral),
           3000
         );
         setTimeout(
